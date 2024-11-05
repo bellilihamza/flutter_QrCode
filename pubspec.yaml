@@ -1,0 +1,25 @@
+name: tp1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.0.0
+  cupertino_icons: ^1.0.8
+  barcode_scan2: ^4.2.0  # Specify the version you'd like to use, or check the latest on pub.dev
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
